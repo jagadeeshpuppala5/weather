@@ -1,0 +1,12 @@
+body{
+	background-image: url("https://img.freepik.com/free-photo/dark-forest-mountains_1204-488.jpg?w=1800&t=st=1672487474~exp=1672488074~hmac=264065bebf3fc43c764139c2541df03da46646a15e96c0da707072d21f895646");
+}
+.container{
+	border:1px solid red;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	color:white;
+	width:40%;
+	height:40%;
+	text-align: center;
+	margin-left:30%;
+}
