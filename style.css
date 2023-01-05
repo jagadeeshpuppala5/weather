@@ -1,12 +1,46 @@
 body{
-	background-image: url("https://img.freepik.com/premium-vector/weather-elements-realistic-sun-cloud-lighting-rain-snow-isolated-transparent-background_80590-7845.jpg?size=626&ext=jpg&uid=R85202679&ga=GA1.1.1859394032.1668591111&semt=sph");
+	background-image: url("https://img.freepik.com/free-photo/dark-forest-mountains_1204-488.jpg?w=1800&t=st=1672487474~exp=1672488074~hmac=264065bebf3fc43c764139c2541df03da46646a15e96c0da707072d21f895646");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .container{
 	border:1px solid red;
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 	color:white;
 	width:40%;
-	height:40%;
 	text-align: center;
 	margin-left:30%;
+}
+
+
+@media (min-width:1500px){
+
+	.container{
+		width: 30%;
+	}
+}
+@media (max-width:992px){
+	.container h1{
+		font-size: 1.3rem;
+	}
+}
+
+@media (max-width:768px){
+	.container{
+		width: 38%;
+	}
+	.container input{
+		width:40% !important;
+		font-size:0.6em
+	}
+}
+@media (max-width:500px){
+
+	.container{
+		width: 60%;
+		margin-left: 18%;
+	}
+	.container h1{
+		font-size: 1rem;
+	}
 }
